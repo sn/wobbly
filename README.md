@@ -38,9 +38,9 @@ Examples
 -----------------
 
 ```ruby
-Wobbly.in('1h2m8s') # 1 hour, 2 minutes, 8 seconds from now
-Wobbly.in('5Y') # 5 years from now
-Wobbly.in('3Y8m') # 3 years, 8 minutes from now
+Wobbly.in('1h2m8s')   # 1 hour, 2 minutes, 8 seconds from now
+Wobbly.in('5Y')       # 5 years from now
+Wobbly.in('3Y8m')     # 3 years, 8 minutes from now
 Wobbly.in('3Y8M2W1D') # 3 years, 8 months, 2 weeks, 1 day
 ```
 

@@ -16,7 +16,7 @@ Getting Started
 -----------------
 
 ```ruby
-require 'Wobbly'
+require 'wobbly'
 
 Wobbly.in('1h2m') # => 2017-11-27 19:58:44 +0200
 ```

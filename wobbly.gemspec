@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "wobbly"
-  s.version     = "0.0.1"
+  s.version     = "0.0.2"
   s.date        = "2017-11-27"
   s.summary     = "Wobbly is an easy to use token type date parser in Ruby"
   s.description = "Wobbly is an easy to use token type date parser in Ruby that allows you easily parse short dates such as 1h2m"
@@ -12,5 +12,5 @@ Gem::Specification.new do |s|
   s.executables << 'wobbly'
 
   s.add_development_dependency 'minitest', '~> 5.7', '>= 5.7.0'
-  s.add_development_dependency 'rake', '~> 10.4', '>= 10.4.2'
+  s.add_development_dependency 'rake', '~> 13.0', '>= 13.0.1'
 end

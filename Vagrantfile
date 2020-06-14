@@ -12,7 +12,6 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
-    ln -s /vagrant_data ~/ripcord
-    cd ~/ripcord && /home/vagrant/bin/bundler install
+    ln -s /vagrant_data ~/wobblyy
   SHELL
 end

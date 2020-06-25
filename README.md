@@ -59,4 +59,4 @@ Please see [LICENSE](https://github.com/SeanNieuwoudt/Wobbly/blob/master/LICENSE
 Author
 -----------------
 
-Sean Nieuwoudt, [@SeanNieuwoudt](https://twitter.com/seannieuwoudt) / [http://isean.co.za](http://isean.co.za) / [https://wixelhq.com](https://wixelhq.com)
+[github.com/sn](https://github.com/sn) 

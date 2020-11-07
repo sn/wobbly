@@ -1,4 +1,4 @@
-## Wobbly: simple as f*** token date parser
+## Wobbly: Simple date token parser for Ruby
 
 Wobbly parses a given token into a date in the future. Simple.
 
@@ -54,7 +54,7 @@ To test the current stable version of Wobbly, simply run:
 License
 -----------------
 
-Please see [LICENSE](https://github.com/SeanNieuwoudt/Wobbly/blob/master/LICENSE) for licensing details.
+Please see [LICENSE](https://github.com/sn/Wobbly/blob/master/LICENSE) for licensing details.
 
 Author
 -----------------

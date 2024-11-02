@@ -7,10 +7,11 @@ Gem::Specification.new do |s|
   s.authors     = ["Sean Nieuwoudt"]
   s.email       = "sean@isean.co.za"
   s.files       = ["lib/wobbly.rb"]
-  s.license     = "GPL-3.0"
+  s.license     = "GPL-3.0-or-later"
   s.homepage    = 'https://github.com/sn/wobbly'
   s.executables << 'wobbly'
-
+  
+  s.required_ruby_version = '>= 2.7'
   s.add_development_dependency 'minitest', '~> 5.25'
   s.add_development_dependency 'rake', '~> 13.2.1'
 end

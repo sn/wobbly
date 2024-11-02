@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name        = "wobbly"
-  s.version     = "1.0.0"
-  s.date        = "2020-07-11"
+  s.version     = "1.0.4"
+  s.date        = "2024-02-11"
   s.summary     = "Wobbly is an easy to use token type date parser in Ruby"
-  s.description = "Wobbly is an easy to use token type date parser in Ruby that allows you easily parse short dates such as 1h2m"
+  s.description = "Wobbly is a simple Ruby library that parses shorthand relative date and time duration strings, making it easy to specify durations like '1h2m' (1 hour, 2 minutes) or '5Y' (5 years) in a concise format."
   s.authors     = ["Sean Nieuwoudt"]
   s.email       = "sean@isean.co.za"
   s.files       = ["lib/wobbly.rb"]
@@ -11,6 +11,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/sn/wobbly'
   s.executables << 'wobbly'
 
-  s.add_development_dependency 'minitest', '~> 5.7', '>= 5.7.0'
-  s.add_development_dependency 'rake', '~> 13.0'
+  s.add_development_dependency 'minitest', '~> 5.25'
+  s.add_development_dependency 'rake', '~> 13.2.1'
 end
